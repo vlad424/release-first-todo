@@ -21,6 +21,7 @@ li {list-style-type: none;}
 
 .list {
   align-items: center;
+  margin-bottom: 1vh;
 }
 
 .list__item {
@@ -28,9 +29,35 @@ li {list-style-type: none;}
 }
 
 .post {
+  margin-top: 2.5vh;
+  margin-left: 5vh;
   text-align: center;
   width: 100vh;
   height: 10vh;
   border-radius: 20px;
   margin-bottom: 10px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.1);
+}
+
+.modal_btn {
+  display: inline-flex;
+	height: 25px;
+	width: 25px;
+	margin-top: 2vh;
+	margin-left: 1vh;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 50%;
+	background-color: #fff;
+	font-size: 19px;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.1);
+	cursor: pointer;
+}
+
+.spanAfterBtn {
+  color: grey;
 }
