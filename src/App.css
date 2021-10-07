@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+li {list-style-type: none;}
+
+.App {
+  display: flex;
+}
+
+.side_bar {
+  background-color: rgba(108, 183, 223, 0.097);
+  flex-direction: column;
+  height: 100vh;
+  width: 220px;
+}
+.title_task {
+  margin-left: 5vh;
+}
+
+.list {
+  align-items: center;
+}
+
+.list__item {
+  display: flex;
+}
+
+.post {
+  text-align: center;
+  width: 100vh;
+  height: 10vh;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
